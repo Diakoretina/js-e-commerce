@@ -103,6 +103,9 @@ main{
     background-color: lightgray;
     border: none;
 }
+.numb button img{
+    padding: 8px;
+}
 .numb input{
     width: 50px;
     height: 40px;
@@ -137,3 +140,6 @@ main{
 .uppercase {
     text-transform: uppercase;
   }
+.display-none {
+    display: none;
+}
