@@ -9,8 +9,9 @@ header{
     border-bottom: 2px solid;
     display: flex;
     justify-content: space-around;
-    margin: 32px;
-    padding-bottom: 16px;
+    margin: 16px;
+    padding-bottom: 8px;
+    align-items: center;
 }
 header ul{
     list-style: none;
@@ -18,9 +19,14 @@ header ul{
 header ul li{
     display: inline;
 }
+
 .last img{
     padding: 8px;
 }
 .avatar{
     height: 50px;
+}
+/*Main*/
+main{
+    display: flex;
 }
