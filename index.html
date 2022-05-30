@@ -6,6 +6,12 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>E-commerce</title>
     <link rel="stylesheet" href="./style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Kumbh+Sans&display=swap"
+      rel="stylesheet"
+    />
   </head>
   <body>
     <!--Header-->
@@ -44,7 +50,7 @@
       <!--Tipo-->
       <div class="tipo">
         <div class="titolo">
-          <h4>Sneaker company</h4>
+          <h5 class="uppercase">Sneaker company</h5>
           <h1>Fall Limited Edition Sneakers</h1>
         </div>
         <div class="desc">
@@ -55,10 +61,19 @@
           </p>
         </div>
         <div class="prezzo">
-          <h2>$125.00</h2>
+          <h2>$125.00<span>50%</span></h2>
           <h3>$250.00</h3>
         </div>
-        <div class="pulsanti"></div>
+        <!--Pulsanti-->
+        <div class="pulsanti">
+          <button>-</button>
+          <input type="text" />
+          <button>+</button>
+          <button class="cart">
+            <img src="./assets/img/icon-cart.svg" alt="" />
+            <strong>Add to cart</strong>
+          </button>
+        </div>
       </div>
     </main>
   </body>
