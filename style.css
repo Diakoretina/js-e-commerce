@@ -1,0 +1,26 @@
+/*General*/
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+/*Header*/
+header{
+    border-bottom: 2px solid;
+    display: flex;
+    justify-content: space-around;
+    margin: 32px;
+    padding-bottom: 16px;
+}
+header ul{
+    list-style: none;
+}
+header ul li{
+    display: inline;
+}
+.last img{
+    padding: 8px;
+}
+.avatar{
+    height: 50px;
+}
