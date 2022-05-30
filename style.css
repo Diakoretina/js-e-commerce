@@ -27,12 +27,16 @@ header{
     display: inline;
     margin: 0 16px;
 }
-
-.last img{
-    padding: 8px;
+.last{
+    display: flex;
+    align-items: center;
+}
+.ca{
+    height: 20px;
+    padding-right: 50px;
 }
 .avatar{
-    height: 50px;
+    height: 40px;
 }
 /*Main*/
 main{
@@ -100,7 +104,7 @@ main{
 .numb button{
     width: 50px;
     height: 40px;
-    background-color: lightgray;
+    background-color: hsl(223, 64%, 98%);
     border: none;
 }
 .numb button img{
@@ -109,8 +113,9 @@ main{
 .numb input{
     width: 50px;
     height: 40px;
-    background-color: lightgray;
+    background-color: hsl(223, 64%, 98%);
     border: none;
+    text-align: center;
 }
 .lb{
     border-top-left-radius: 4px;

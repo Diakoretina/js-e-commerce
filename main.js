@@ -10,6 +10,10 @@ let imgThumbnail2 = document.getElementById("img-thumbnail2");
 let imgThumbnail3 = document.getElementById("img-thumbnail3");
 let imgThumbnail4 = document.getElementById("img-thumbnail4");
 
+let remove = document.getElementById("minius");
+let add = document.getElementById("plus");
+let number = document.getElementById("number");
+
 //Select img
 imgThumbnail1.addEventListener("click", ()=>{
     document.querySelector(".scarpe img:not(.display-none)").classList.add("display-none");
@@ -29,4 +33,15 @@ imgThumbnail3.addEventListener("click", ()=>{
 imgThumbnail4.addEventListener("click", ()=>{
     document.querySelector(".scarpe img:not(.display-none)").classList.add("display-none");
     img4.classList.remove("display-none");
+});
+
+//Plus and minus
+remove.addEventListener("click", ()=>{
+    if(number.value > 0){
+        number.value--
+    }
+});
+
+add.addEventListener("click", ()=>{
+    number.value ++;
 });
